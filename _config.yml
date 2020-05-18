@@ -1,0 +1,10 @@
+permalink: /posts/:title
+markdown: kramdown
+
+gems:
+  - jekyll-sitemap
+
+name: Robert Stackhouse
+url: https://rstackhouse.github.io
+description: Thoughts on software deveolopment and other things.
+twitter: rstackhouse
