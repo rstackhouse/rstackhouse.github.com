@@ -1,0 +1,152 @@
+Post series on How to be a developer
+	What this series isn't
+		Not the why. That can only be answered by you. Hopefully it isn't about the money, but if it is, hey, life is short. Enjoy what you can with who you can.
+		Not the what. "What to be a developer" is nonsensical.  
+
+			What to [do] to be a developer. This is akin to religion. And I try to avoid discussing religion unless specifically asked. 
+			Whether bachelor's, master's, PhD in Comp Sci or boot camp, there's a bunch of answers and none of them are wrong. There might be a "right" one for the company/companies you'd 
+			like to work for eventually, but that may also be subject to change.
+			I won't even get into what "tech stack". Stack Overflow has got a thing for that, and again, it probably depends on who you want to work for, and what you want to work on.
+		
+			I won't answer the "what you can do" either, because software is everywhere. This may be a part of your why
+
+		Where to be a developer. Since the advent of remote work, that's simple: anywhere you can.
+		When to be a developer: before AI makes use all obsolete.
+
+	What this series is
+		The universal "things" one should/must do to be a developer.
+		Some of these 
+
+	1. Be inquisitive.
+		If you are not, do yourself (and the rest of us) a favor and find work that better rewards people like you. No judgment. Developing is just not for you.
+
+		Be mindful of your environment
+			Be careful, you need to know how to ask questions in order for them to be received well, who to ask them of, and when
+
+	2. Don't repeat yourself
+		If you find yourself performing a task over and over again, find a way to automate it. Don't be afraid of the command line. Learn bash (or MS-DOS batch commands if you must) if you need to. Python is well equipped to this task. As are JavaScript (thanks to Node) and Powershell.
+
+		If you repeat yourself in code 3 times, refactor. I don't care what your personal religion around Agile/XP is, do it.
+
+	3. Consume the fewest possible resources to get the job done
+		Time, electricity, ... It is better for the planet, the client, you name it.
+
+	4. Work from facts where possible
+		Hypotheses are great, but they were made to be tested
+		Time is literally money where software development is concerned (see Consume the fewest possible resources to get the job done). What is the fastest way you could reasonably prove or disprove
+			your hypothesis? Often, it is looking for weird things in the data. Changing code takes time. Building takes time. Re-deploying takes time. Running an algorithm, especially over a large dataset
+			takes time. Waiting for a breakpoint to get hit takes time.
+
+			A SQL query takes the time required to think of it and the time to execute it. This time is frequently much less than the cost of testing live.
+
+	5. Be engaged. Software written by dis-engaged developers is bad software, period. If you don't care about the problem, or the people you are working for, move on. 
+
+		"Be engaged" doesn't mean spend your off hours doing research for work.
+
+	6. Care about quality
+		Intuitiveness or ease of use
+		Accessibility
+			Always pitch this in terms of money it will make and never in terms of what it will cost. If your organization views accessibility as a cost center, they probably view you
+			as infinitely replaceable. Move on.
+		Security
+			When people don't trust software, they stop using it.
+
+	7. Compromise where you have to
+		Be explicit. Make the person tending the purse strings make the compromise if you can. If you can't, make sure you document it and their acknowledgement of the compromise
+
+	8. Be a tool snob
+		If there is a tool that will help you get more done faster (this used to be ReSharper for me) ask if you can have it. Productivity is a easy sell
+
+		Use the right tool for the job
+
+	9. Know your tools
+
+	10. Identify patterns and code to them
+		Write it one way
+
+		Many times, framework vendors, will identify these for you
+
+	11. Back everything up
+
+		If you aren't using distributed source control, what are you even doing?
+
+		Databases
+
+		Configurations
+
+		Dev environments
+
+	12. Bootstrap everything you can
+
+		Even better, use a bootstrap someone else made
+
+
+Post about jq and docker api
+
+Post about DropShip
+	Elaborate on feature set
+		Why would anyone want this?
+		What features can/can't be sacrificed
+	Elaborate on risks
+		What are the biggest risks?
+			Based on complexity?
+			Based on experience?
+
+Post on: simple app statistics service
+	https://stackoverflow.com/questions/750574/how-to-get-memory-available-or-used-in-c-sharp
+	https://stackoverflow.com/questions/3411805/using-performancecounter-to-track-memory-and-cpu-usage-per-process
+	Add examples/csharp folder to GrokCodeBook repo. Put blog post code in there
+
+Post on: Always, always, always backup a database prior to a migration. Even in QA. Throwing out best practice in the name of speed always turns out badly. Don't skip it. It's not worth it.
+
+Post on sometimes the right thing to do is nothing and knowing when you don't have enough information to act (relates to db post above)
+
+Post on "We need a better word than 'refactoring'" It has "re" in it. Which is too close to "rework". Which is the conclusion I think non-developers make. Embettering? Using software is like being the 
+author's peer editor. You don't often see it in its "finished state". Linux software may be the exception to this. We have LaTeX because TeX is feature complete.
+
+Post on starting a deployment plan when you make an assumption that is going to require one
+
+Post on risk resolution (related to current lack of legacy db knowledge and how I identfied early on that not knowing the model was going to be a problem. you can't just read the schema. You have to play with the data)
+
+Post on communicating in the language of the problem space vs the solution space (e.g. gun violence vs gun possesion. The problem isn't the guns. The problem is that people don't feel safe. Some because of the guns. Guns make the others feel safe)
+
+Post on update-db task in VS Code (toolbag)
+
+Post series on ETL (design, logging, verification, dropping discarded data to json file)
+
+Post on dev ramp up - data (db in container. CSV files vs docker commit vs docker export/import)
+
+Post on what's in your toolkit. E.g. linqpad, sandboxes, REPLs, regex, scripts, zsh, powerlevel9K, python, etc. (toolbag)
+
+Post on wiki in a container (toolbag)
+
+Post on doing little experiments in code (REPLs, ad hoc scripts, sandboxes, etc. 2 types of developers. Those that do and those that don't and which type I'd be more likely to hire)
+
+Post on not abandoning process when pressed, but proactively realizing when time is becoming sort or realizing that process is cumbersome and reevaluate process
+
+Post on how TDD is a tool for "staying over the problem" (a failing test is interesting) (a failing test is evidence) (a failing test is a data point)
+
+Post on what to do when an old test fails (what is it telling you?) (is it brittle? re-write it or delete it)
+
+Post on the importance of communication in software development (pivot early) (reduce risk)
+
+Post on typescript logging
+
+Post on knowing when to ask for help
+
+Post on reflecting
+
+Post on the usefulness of patterns (patterns give us a language; a how) (patterns are not a kit of parts)
+
+Post on here's the thing about #notallmen
+
+	dudes who feel called out for being intentionally crappy to women get all ragey when someone says something negative about patriarchal masculinity
+	they feel that way because they feel that they are not wrong for being intentionally crappy to women. let that percolate for a second
+
+	if you are not one of those dudes, and you get all ragey, how tf is anyone supposed to know the difference?
+
+	if you are a good dude, keep your mouth shut and keep out of it
+
+	actions speak louder than words. trust that word will get around and people will notice if you are one of the good ones
+
+	may the winds of fortune smile upon you and go in peace

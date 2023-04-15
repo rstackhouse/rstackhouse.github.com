@@ -1,0 +1,1 @@
+Writing unit tests is about inspiring developer confidence. Velocity and developer confidence are inversely proportional. Think about it. In other areas of your life, do things happen more quickly or more slowly when you are confident of what you are doing? If you have lots of little successes on the way to a big success, is your confidence going up or down?
