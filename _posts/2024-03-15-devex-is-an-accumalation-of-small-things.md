@@ -29,10 +29,10 @@ This message is extremely irritating:
 The fix is super simple on macOS (the approach is slightly different on newer OS version, but the concept is the same you need to find "Login Items" under "System Preferences" and add Rancher to that list).
 
 Open *System Preferences*. Then find *Users and Groups*.
-![Opening the System Preferences dialog in macOS](/images/users-and-groups.png)
+![Opening the System Preferences dialog in macOS](/images/system-preferences-users-and-groups.png)
 
 Find *Login Items*.
-![Selecting the Login Items Tab in the Users and Groups section of System Preferences](/images/login-items.png)
+![Selecting the Login Items Tab in the Users and Groups section of System Preferences](/images/users-and-groups-login-items.png)
 
 Hit the "+" button. Browse to */Applications/Rancher Desktop*. Select it, and the next time you log in to your Mac, Rancher Desktop will start up for you.
 
