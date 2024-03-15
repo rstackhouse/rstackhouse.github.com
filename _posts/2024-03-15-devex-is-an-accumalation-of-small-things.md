@@ -36,4 +36,6 @@ Find *Login Items*.
 
 Hit the "+" button. Browse to */Applications/Rancher Desktop*. Select it, and the next time you log in to your Mac, Rancher Desktop will start up for you.
 
+I posted the above approach on a team Slack channel, and almost immediately a coworker thanked me for doing so.
+
 Removing a negative is always a positive. As stated in the Tao of Design and User Experience, "[T]he best experience is no experience." Just like good software, a good developer experience is often about what you leave out of it.
