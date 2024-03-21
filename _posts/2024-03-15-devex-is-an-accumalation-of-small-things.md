@@ -21,12 +21,12 @@ We serve just like we eat the elephant: one little bit at a time. DevEx is an ac
 * Do you call out crazy making behavior of external entities that affect their work?
 * In short do you make the work fun, fulfilling, and purposeful while actively removing or limiting detractors from the work experience?
 
-One small thing I did today was figure out how to make Rancher Desktop launch on login. I use containers every day at work. There is absolutely *no reason* that Rancher Desktop should not be running on login for me.
+One small thing I did today was figure out how to make Rancher Desktop launch on login. I use containers every day at work. So it would be beneficial if Rancher Desktop ran on login for me.
 
 This message is extremely irritating: 
 ![Irritating message that the docker daemon is not currently running shown after running the command docker run hello-world](/images/no-daemon.png "Ugh")  
 
-The fix is super simple on macOS (the approach is slightly different on newer OS version, but the concept is the same you need to find "Login Items" under "System Preferences" and add Rancher to that list).
+The fix is super simple on macOS (the approach is slightly different on newer OS version, but the concept is the same: you need to find "Login Items" under "System Preferences" and add Rancher to that list).
 
 Open *System Preferences*. Then find *Users and Groups*.
 ![Opening the System Preferences dialog in macOS](/images/system-preferences-users-and-groups.png)
